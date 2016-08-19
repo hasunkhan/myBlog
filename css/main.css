@@ -1,0 +1,58 @@
+body {
+    font-family: Helvetica;
+}
+
+header#main_Container {
+    margin: auto;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    background: url(../img/dixitPatel-bg.png);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+img {
+    margin-top: 40px;
+    height: 200px;
+    width: 205px;
+    border: 7px solid #FFF;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+article {
+    max-width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    /*list-style-type: none;*/
+}
+
+li {
+    display: inline;
+    padding: 0px 10px, 10px;
+}
+
+@media (max-width: 500px) {
+    /*article {
+        background: red;
+    }*/
+    h1 {
+        font-size: 34px;
+    }
+    li {
+        display: block;
+        padding: 5px;
+    }
+}
